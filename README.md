@@ -21,7 +21,7 @@
 4. 모델이 예측한 예측 결과를 DB에 저장 후 결과창을 띄워줌
 
 ## 산출문서
-![산출문서](https://drive.google.com/drive/folders/1XQ3XyhBJjnDyQpw0U8z0sYyccLP9cGc6?usp=sharing)
+[산출문서](https://drive.google.com/drive/folders/1XQ3XyhBJjnDyQpw0U8z0sYyccLP9cGc6?usp=sharing)
 
 ## 시스템 아키텍처
 ![시스템 아키텍처](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+020009.png)
