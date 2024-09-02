@@ -1,23 +1,25 @@
 
-# 프로젝트 정보
+# 📄프로젝트 정보
 
 ## 1. 프로젝트 소개
-초보 식집사들을 위한 식물관리 및 병충해 진단 서비스와 정보 공유 커뮤니티
+> 초보 식집사들을 위한 식물관리 및 **병충해 진단** 서비스와 정보 공유 커뮤니티🐛
 
-### 2. 제작기간
+## 2. 제작기간
 > 24.07.22 ~ 24.08.01
 
-### 3. 참여인원
+## 3. 참여인원
 
-| 이름 | 역할 |
-| --- | --- |
-| 조승혁 | Back, Model |
-| 고원희 | PM, Front |
-| 이정훈 | Back |
-| 안수현 | Front |
-| 임정윤 | Back |
+> | 이름 | 역할 |
+> | --- | --- |
+> | 조승혁 | Back / Model |
+> | 임정윤 | DB / Back |
+> | 안수현 | Front / Design |
+> | 고원희 | PM / Front |
+> | 이정훈 | Back / Model |
 
-### 4. 내가 맡은 역할
+![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+021438.png)
+
+## 4. 내가 맡은 역할
 
 - **모델 학습**
   - 학습에 사용한 데이터: [AI허브 - 시설 작물 질병 진단 이미지](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=153)
@@ -42,90 +44,85 @@
 
 <br>
 
-## 2. 사용기술
-### 1. Front
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+#  💻사용기술
+## 1. Front
+> ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
 
-### 2. Back
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+## 2. Back
+> ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
-### 3. Model
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+## 3. Model
+> ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![ResNet50](https://img.shields.io/badge/ResNet50-0078D4?style=for-the-badge&logo=ai&logoColor=white)
 
-### 4. 기타
-![Kakao](https://img.shields.io/badge/Kakao-FEE500?style=for-the-badge&logo=kakaotalk&logoColor=black)
+## 4. 기타
+> ![Kakao](https://img.shields.io/badge/Kakao-FEE500?style=for-the-badge&logo=kakaotalk&logoColor=black)
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+<br>
 
+# 📋시스템아키텍처, 서비스흐름도, 시연영상
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 서비스소개
-초보 식집사들을 위한 식물관리 및 병충해 진단 서비스와 정보 공유 커뮤니티
-
-## 주요기능
-1. 사용자로부터 식물의 사진과 어떤 작물인지에 대한 정보를 라디오 버튼으로 입력을 받음
-2. 사용자로부터 입력받은 식물의 사진과 어떤 작물인지에 대한 정보를 DB에 저장 및 모델로 전송
-3. 모델이 입력받은 정보를 기반으로 식물의 병충해를 예측
-4. 모델이 예측한 예측 결과를 DB에 저장 후 결과창을 띄워줌
-
-## 산출문서
-[산출문서](https://drive.google.com/drive/folders/1XQ3XyhBJjnDyQpw0U8z0sYyccLP9cGc6?usp=sharing)
-
-## 시스템 아키텍처
+## 1. 시스템 아키텍처
+<details>
+<summary>시스템 아키텍처 펼쳐보기</summary>
+  
 ![시스템 아키텍처](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+020009.png)
 
-## 서비스 흐름도
+</details>
+
+## 2. 서비스 흐름도
+<details>
+<summary>서비스 흐름도 펼쳐보기</summary>
+
 ![서비스 흐름도](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+020433.png)
 
-## 화면구성(시연영상)
+</details>
+
+## 3. 화면구성(시연영상)
 [시연 영상 보기](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4)
 
-## 팀원역할
-![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+021438.png)
 
-## 초기 세팅
-### 1. Front 실행 환경 구성
-#### 프로젝트 설정
+# 💿핵심기능
+
+## 1. 병충해 진단
+
+1. **사용자 입력**
+   - 사용자로부터 식물의 사진과 작물 종류를 라디오 버튼으로 입력받음.
+
+2. **데이터 저장 및 전송**
+   - 입력받은 식물의 사진과 작물 정보를 DB에 저장하고, 모델에 전송.
+
+3. **병충해 예측**
+   - 모델이 입력받은 정보를 기반으로 식물의 병충해를 예측.
+
+4. **결과 저장 및 표시**
+   - 모델의 예측 결과를 DB에 저장한 후, 결과창을 띄워 사용자에게 결과를 보여줌.
+
+# 🗂️산출문서
+[산출문서 바로가기](https://drive.google.com/drive/folders/1XQ3XyhBJjnDyQpw0U8z0sYyccLP9cGc6?usp=sharing)
+
+
+
+# 🛠️초기 세팅
+## 1. web 실행 환경 구성
+### 프로젝트 설정
 1. VSCode에서 `ShinRok` 폴더를 엽니다.
 2. 터미널에서 다음 명령어를 실행합니다.
     ```sh
-    cd front
+    cd web
     npm install
     nodemon app.js
     ```
 3. `.env` 파일을 생성하여 보안 관련 코드를 작성합니다.
 
-### 2. Model 실행 환경구성
-#### 프로젝트 설정
+## 2. Model 실행 환경구성
+### 프로젝트 설정
 1. VSCode에서 `ShinRok` 폴더를 엽니다.
 2. `Ctrl + Shift + P`를 누르고 `>Python: Select Interpreter`를 선택합니다.
 3. 파이썬 버전을 선택합니다.
