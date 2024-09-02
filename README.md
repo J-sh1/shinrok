@@ -1,15 +1,92 @@
 
-# 목차
-  1. [서비스소개](#서비스소개)
-  2. [주요기능](#주요기능)
-  3. [산출문서](#산출문서)
-  4. [시스템 아키텍처](#시스템-아키텍처)
-  5. [서비스 흐름도](#서비스-흐름도)
-  6. [화면구성(시연영상)](#화면구성시연영상)
-  7. [팀원역할](#팀원역할)
-  8. [초기 세팅](#초기-세팅)
-  9. 
-  
+# 프로젝트 정보
+
+## 1. 프로젝트 소개
+초보 식집사들을 위한 식물관리 및 병충해 진단 서비스와 정보 공유 커뮤니티
+
+### 2. 제작기간
+> 24.07.22 ~ 24.08.01
+
+### 3. 참여인원
+
+| 이름 | 역할 |
+| --- | --- |
+| 조승혁 | Back, Model |
+| 고원희 | PM, Front |
+| 이정훈 | Back |
+| 안수현 | Front |
+| 임정윤 | Back |
+
+### 4. 내가 맡은 역할
+
+- **모델 학습**
+  - 학습에 사용한 데이터: [AI허브 - 시설 작물 질병 진단 이미지](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=153)
+  - 데이터 전처리: 이미지 데이터와 라벨링 데이터 매핑
+  - 모델 설계 및 학습
+
+- **서버 및 환경 구축**
+  - 모델 예측을 위한 로컬 환경 구축
+  - Express, Flask 서버 구축 및 DB 연동
+  - AWS S3 버킷을 활용한 이미지 저장 기능 구현
+
+- **기능 구현**
+  - 게시판 별 게시물 불러오기 및 상세보기 기능 구현
+  - 게시글 수정 및 삭제 기능 구현
+  - 비동기 댓글 기능 구현
+  - 병충해 진단 페이지 제작 및 서버 간 통신 (Axios 활용)
+  - 다이어리 불러오기 기능 구현
+  - 마이페이지에서 병충해 진단결과 불러오기 및 상세페이지 기능 구현
+
+- **테스트**
+  - 단위 테스트 및 통합 테스트 진행
+
+<br>
+
+## 2. 사용기술
+### 1. Front
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+### 2. Back
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+
+### 3. Model
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![ResNet50](https://img.shields.io/badge/ResNet50-0078D4?style=for-the-badge&logo=ai&logoColor=white)
+
+### 4. 기타
+![Kakao](https://img.shields.io/badge/Kakao-FEE500?style=for-the-badge&logo=kakaotalk&logoColor=black)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 서비스소개
 초보 식집사들을 위한 식물관리 및 병충해 진단 서비스와 정보 공유 커뮤니티
