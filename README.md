@@ -84,9 +84,9 @@
 
 </details>
 
-## 3. 화면구성(시연영상)
-[시연 영상 보기](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4)
-
+## 3. 화면구성(시연 영상)
+[클릭 시 영상이 재생됩니다.](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4) <br>
+소리가 클 수 있으니 주의 해주세요!!
 
 # 💿핵심기능
 
